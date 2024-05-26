@@ -12,6 +12,7 @@
   src: url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
 }
 body {
+  font-family: Inter;
   background-color: var(--Off-Black);
 }
 main {
@@ -22,13 +23,45 @@ main {
   justify-content: center;
 }
 .card {
+  border-radius: 14px;
   text-align: center;
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 550px;
   background-color: var(--Dark-Grey);
+  padding: 20px;
 }
 .card-image img {
-  width: 128px;
+  width: 100px;
   object-fit: contain;
   border-radius: 100%;
+  margin: 1em 0;
+}
+.title-name{
+  color: var(--White);
+  font-size: 25px;
+  font-weight: 600;
+}
+.subtitle-location{
+  color: var(--Green);
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px 0px 20px 0px;
+}
+div>p{
+  color: var(--White);
+  font-size: 15px;
+  padding: 10px 0;
+  opacity: 0.7;
+}
+.card-links>a {
+  display: block;
+  padding: 15px;
+  background-color: var(--Grey);
+  list-style: none;
+  color: var(--White);
+  text-decoration: none;
+  margin: 15px;
+  border-radius: 0.5em;
+  font-size: 14px;
+  font-weight: 600;
 }
